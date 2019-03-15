@@ -3,20 +3,20 @@
 * A Vue web app using Firebase to track racers at an event.
 
 ### JS Components
-Header
+**Header**
 * Menu
   * Races
   * Login
   * About
   * Time Logging (Conditionally show on login)
-Race List Page
+**Race List Page**
 * Race List 
   * Race List Item
     * Title
     * Description
     * Start Date
     * End Date
-Race Event Page
+**Race Event Page**
 * Map
   * Google map to show :
     * Race event and each checkpoint.
@@ -30,7 +30,7 @@ Race Event Page
       * Checkpoint List Item
         * Name
         * Time
-Time Logging
+**Time Logging**
 * Form (Create/Edit)
   * Autocomplete select list of Racers
   * Autocomplete select list of Checkpoints
@@ -38,7 +38,7 @@ Time Logging
     * Enter
     * Exit
   * Time
-Login Page
+**Login Page**
 * Form
   * Username
   * Password
@@ -48,7 +48,7 @@ Login Page
 * Firebase for authentication and hold race event data
 
 ### Data Structure
-Race Event
+**Race Event**
 * String uuid
 * String Title
 * String Description
@@ -57,7 +57,7 @@ Race Event
 * String Location (Coordinates)
 * Array Racers
 * Array Checkpoints
-Racer
+**Racer**
 * String uuid
 * String Name
 * DateTime Event Time
@@ -65,13 +65,13 @@ Racer
 * Checkpoint[] Checkpoint exit time
 * Race Event[] Races
   * Races can be subscribed to multiple races
-Checkpoint
+**Checkpoint**
 * String uuid
 * String Title
 * String Location (Coordinates)
 * Int Race ID
   * A checkpoint can only be assigned to one race
-User
+**User**
 * String uuid
 * String Name
 * String Email
