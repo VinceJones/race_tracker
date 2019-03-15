@@ -9,6 +9,7 @@
   * Login
   * About
   * Time Logging (Conditionally show on login)
+
 **Race List Page**
 * Race List 
   * Race List Item
@@ -16,6 +17,7 @@
     * Description
     * Start Date
     * End Date
+
 **Race Event Page**
 * Map
   * Google map to show :
@@ -30,6 +32,7 @@
       * Checkpoint List Item
         * Name
         * Time
+
 **Time Logging**
 * Form (Create/Edit)
   * Autocomplete select list of Racers
@@ -38,6 +41,7 @@
     * Enter
     * Exit
   * Time
+
 **Login Page**
 * Form
   * Username
@@ -57,6 +61,7 @@
 * String Location (Coordinates)
 * Array Racers
 * Array Checkpoints
+
 **Racer**
 * String uuid
 * String Name
@@ -65,12 +70,14 @@
 * Checkpoint[] Checkpoint exit time
 * Race Event[] Races
   * Races can be subscribed to multiple races
+
 **Checkpoint**
 * String uuid
 * String Title
 * String Location (Coordinates)
 * Int Race ID
   * A checkpoint can only be assigned to one race
+
 **User**
 * String uuid
 * String Name
