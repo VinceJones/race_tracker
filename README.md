@@ -1,2 +1,3 @@
-# race_tracker
-App to track racers
+# RaceTracker
+
+* A Vue web app using Firebase to track racers at an event.
